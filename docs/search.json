@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Interactive Tables",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#creating-tables-in-r",
+    "href": "posts/post-with-code/index.html#creating-tables-in-r",
+    "title": "Interactive Tables",
+    "section": "Creating Tables in R",
+    "text": "Creating Tables in R\n\nTables using Flextable package.\n\n\n\nUniversitiesDetailsTuitionnamestatestate_codetypedegree_lengthroom_and_boardin_state_tuitionin_state_totalout_of_state_tuitionout_of_state_totalAaniiih Nakoda CollegeMontanaMTPublic2 Year2,3802,3802,3802,380Abilene Christian UniversityTexasTXPrivate4 Year10,35034,85045,20034,85045,200Abraham Baldwin Agricultural CollegeGeorgiaGAPublic2 Year8,4744,12812,60212,55021,024Academy CollegeMinnesotaMNFor Profit2 Year17,66117,66117,66117,661Academy of Art UniversityCaliforniaCAFor Profit4 Year16,64827,81044,45827,81044,458Adams State UniversityColoradoCOPublic4 Year8,7829,44018,22220,45629,238\n\n\n\n\n\n\n\n\nYet another example using Flextables\n\n\n\nnamestatestate_codetypedegree_lengthroom_and_boardin_state_tuitionin_state_totalout_of_state_tuitionout_of_state_totalAaniiih Nakoda CollegeMontanaMTPublic2 Year2,3802,3802,3802,380Abilene Christian UniversityTexasTXPrivate4 Year10,35034,85045,20034,85045,200Abraham Baldwin Agricultural CollegeGeorgiaGAPublic2 Year8,4744,12812,60212,55021,024Academy CollegeMinnesotaMNFor Profit2 Year17,66117,66117,66117,661Academy of Art UniversityCaliforniaCAFor Profit4 Year16,64827,81044,45827,81044,458Adams State UniversityColoradoCOPublic4 Year8,7829,44018,22220,45629,238"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#table-using-data-tables-and-some-style",
+    "href": "posts/post-with-code/index.html#table-using-data-tables-and-some-style",
+    "title": "Interactive Tables",
+    "section": "Table using Data tables and some Style",
+    "text": "Table using Data tables and some Style"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tani Barkat Portfolio",
+    "section": "",
+    "text": "Interactive Tables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nTani Barkat\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]

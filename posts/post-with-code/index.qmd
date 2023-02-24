@@ -1,0 +1,91 @@
+---
+title: "Interactive Tables"
+author: "Tani Barkat"
+date: "2023-02-22"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r,echo=FALSE,  message=FALSE, warning=FALSE}
+library(tidyverse)
+library(scales)
+library(gt)
+library(glue)
+library(flextable)
+library(ggplot2)
+tuition_cost <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/tuition_cost.csv')
+tuition_income <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/tuition_income.csv') 
+salary_potential <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/salary_potential.csv')
+historical_tuition <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/historical_tuition.csv')
+diversity_school <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/diversity_school.csv')
+```
+
+## Creating Tables in R
+
+### Tables using Flextable package.
+
+```{r, echo=FALSE,  message=FALSE, warning=FALSE }
+
+ft <- flextable(head(tuition_cost))
+
+ft <- add_header_row(ft, values = c("Universities", "Details", "Tuition"), colwidths = c(4, 4, 2))
+##ft <- add_footer_lines(ft, "Brief Summary of Universities in the USA and the tuition cost") %>%
+ 
+ft <-  theme_tron(ft)
+ft
+
+```
+
+```{r, echo=FALSE, message=FALSE,warning=FALSE}
+#tuition_cost %>% 
+ # filter(in_state_tuition >= 40000 & state == "Texas"| degree_length == 2) %>% 
+  #select(name, state, type, degree_length)
+  #gt(tuition_cost) %>% 
+  #tab_header(title = "Universities in US states with Tuition Less than $10000 dollars") %>%
+  #tab_style(
+   # style = list(
+      #cell_fill(color = "red"),
+      #cell_text(weight = "bold")
+    #),
+    #locations = cells_body(
+     # columns = state,
+   # )
+ # )
+
+```
+
+```{r, echo=FALSE, message=FALSE,warning=FALSE}
+ ##install.packages("flextable")
+library(flextable)
+#install.packages("gtExtras")
+library(dplyr)
+library(DT)
+```
+
+Yet another example using Flextables
+
+```{r, echo=FALSE, message=FALSE,warning=FALSE}
+set_flextable_defaults(
+  font.size = 10, theme_fun = theme_vanilla, padding = 6, background.color = "white", border.color = "blue"
+)
+flextable(head(tuition_cost)) 
+##add_footer_lines("The Tuition Costs in US States")
+```
+
+## Table using Data tables and some Style
+
+```{r, echo=FALSE, message=FALSE,warning=FALSE}
+diversity_school %>%
+  datatable(., options = list( 
+  initComplete = JS(
+    "function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#ED8BBE'});",
+    "$(this.api().table().container()).css({'background-color': '#E8BFDE'});",
+    "}")
+    )
+  ) %>%
+  formatStyle(names(diversity_school), background = "#E0D092") %>%
+  formatStyle(0, background = "#9FB1E7")
+```
