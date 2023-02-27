@@ -1,0 +1,10 @@
+---
+title: "Personal Brand"
+author: "Tani Barkat"
+format: revealjs
+editor: visual
+scroller: true
+incremental: true
+---
+
+##Academic Background - Latest Degree - Undergraduate Degree - Hobbies -
