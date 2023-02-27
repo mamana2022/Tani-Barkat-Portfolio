@@ -5,87 +5,65 @@ format: revealjs
 scrollable: true
 caption: none
 editor: visual
-
 ---
 
-
 ## Academic Background
-::: {.incremental}
 
-- MBA candidate at Willamette University
-- Bachelor's Degree in Computer Science and Engineering
-
+::: incremental
+-   MBA candidate at Willamette University
+-   Bachelor's Degree in Computer Science and Engineering
 :::
 
 ## Soft Skills
-::: {.incremental}
 
-- Communication
-- Problem-Solving
--Decision Making
-- Time Management
-- Leadership Skills
-
+::: incremental
+-   Communication
+-   Problem-Solving -Decision Making
+-   Time Management
+-   Leadership Skills
 :::
 
 ## Hard Skills
-::: {.incremental}
 
-- Web: HTML, CSS, Javascript
-- Linear Regression
--  Google Drive/Social Media/Graphics
-- Forecasting
-- Database Management
+::: incremental
+-   Web: HTML, CSS, Javascript
+-   Linear Regression
+-   Google Drive/Social Media/Graphics
+-   Forecasting
+-   Database Management
 :::
 
 ## Fields of Interest
 
-::: {.incremental}
-
-- Digital Marketing
-- Social Media Marketing
-- Data Analysis
-- Business Analysis
-- Project Management
-- Communications
-
+::: incremental
+-   Digital Marketing
+-   Social Media Marketing
+-   Data Analysis
+-   Business Analysis
+-   Project Management
+-   Communications
 :::
 
 ## Previous Roles.
-::: {.incremental}
-- Intern Programmer at Battery Low Interactive
-- Digital Marketing Intern at GlobexCam Group
-- Internal Communications Intern at Fatima Al Fihri Open University
-- Communication Intern at Diaspo Media.
 
+::: incremental
+-   Intern Programmer at Battery Low Interactive
+-   Digital Marketing Intern at GlobexCam Group
+-   Internal Communications Intern at Fatima Al Fihri Open University
+-   Communication Intern at Diaspo Media.
 :::
 
 ## Hobbies
-::: {.incremental}
 
-- Reading Self Help Books
-- Cooking traditional Cameroonian Meals.
--  Dancing
-- Spending time with Family
-- Watching Movies
-
+::: incremental
+-   Reading Self Help Books
+-   Cooking traditional Cameroonian Meals.
+-   Dancing
+-   Spending time with Family
+-   Watching Movies
 :::
- 
+
 ## Thanks !
 
-- My Email : barkattani@gmail.com
-- My LinkedInProfile:  https://www.linkedin.com/in/tani-barkat-shalanyuy/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-   My Email : barkattani\@gmail.com
+-   My LinkedInProfile: https://www.linkedin.com/in/tani-barkat-shalanyuy/
