@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "Presentation.html#academic-background",
+    "href": "Presentation.html#academic-background",
+    "title": "Presentation",
+    "section": "Academic Background",
+    "text": "Academic Background\n\n\nMBA candidate at Willamette University\nBachelor’s Degree in Computer Science and Engineering"
+  },
+  {
+    "objectID": "Presentation.html#soft-skills",
+    "href": "Presentation.html#soft-skills",
+    "title": "Presentation",
+    "section": "Soft Skills",
+    "text": "Soft Skills\n\n\nCommunication\nProblem-Solving -Decision Making\nTime Management\nLeadership Skills"
+  },
+  {
+    "objectID": "Presentation.html#hard-skills",
+    "href": "Presentation.html#hard-skills",
+    "title": "Presentation",
+    "section": "Hard Skills",
+    "text": "Hard Skills\n\n\nWeb: HTML, CSS, Javascript\nLinear Regression\nGoogle Drive/Social Media/Graphics\nForecasting\nDatabase Management"
+  },
+  {
+    "objectID": "Presentation.html#fields-of-interest",
+    "href": "Presentation.html#fields-of-interest",
+    "title": "Presentation",
+    "section": "Fields of Interest",
+    "text": "Fields of Interest\n\n\nDigital Marketing\nSocial Media Marketing\nData Analysis\nBusiness Analysis\nProject Management\nCommunications"
+  },
+  {
+    "objectID": "Presentation.html#previous-roles.",
+    "href": "Presentation.html#previous-roles.",
+    "title": "Presentation",
+    "section": "Previous Roles.",
+    "text": "Previous Roles.\n\n\nIntern Programmer at Battery Low Interactive\nDigital Marketing Intern at GlobexCam Group\nInternal Communications Intern at Fatima Al Fihri Open University\nCommunication Intern at Diaspo Media."
+  },
+  {
+    "objectID": "Presentation.html#hobbies",
+    "href": "Presentation.html#hobbies",
+    "title": "Presentation",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\nReading Self Help Books\nCooking traditional Cameroonian Meals.\nDancing\nSpending time with Family\nWatching Movies"
+  },
+  {
+    "objectID": "Presentation.html#thanks",
+    "href": "Presentation.html#thanks",
+    "title": "Presentation",
+    "section": "Thanks !",
+    "text": "Thanks !\n\nMy Email : barkattani@gmail.com\nMy LinkedInProfile: https://www.linkedin.com/in/tani-barkat-shalanyuy/"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Interactive Tables",
@@ -21,18 +70,123 @@
     "text": "Table using Data tables and some Style"
   },
   {
+    "objectID": "posts/welcome/Presentation.html",
+    "href": "posts/welcome/Presentation.html",
+    "title": "Communicating with Data.",
+    "section": "",
+    "text": "##— title: “Tani Barkat Portfolio” listing: contents: posts sort: “date desc” type: default categories: true sort-ui: false filter-ui: false page-layout: full title-block-banner: true\ntitle: “Presentation” author: “Tani Barkat” format: revealjs scrollable: true caption: none editor: visual"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#academic-background",
+    "href": "posts/welcome/Presentation.html#academic-background",
+    "title": "Communicating with Data.",
+    "section": "Academic Background",
+    "text": "Academic Background\n\n\nMBA candidate at Willamette University\nBachelor’s Degree in Computer Science and Engineering"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#soft-skills",
+    "href": "posts/welcome/Presentation.html#soft-skills",
+    "title": "Communicating with Data.",
+    "section": "Soft Skills",
+    "text": "Soft Skills\n\n\nCommunication\nProblem-Solving -Decision Making\nTime Management\nLeadership Skills"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#hard-skills",
+    "href": "posts/welcome/Presentation.html#hard-skills",
+    "title": "Communicating with Data.",
+    "section": "Hard Skills",
+    "text": "Hard Skills\n\n\nWeb: HTML, CSS, Javascript\nLinear Regression\nGoogle Drive/Social Media/Graphics\nForecasting\nDatabase Management"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#fields-of-interest",
+    "href": "posts/welcome/Presentation.html#fields-of-interest",
+    "title": "Communicating with Data.",
+    "section": "Fields of Interest",
+    "text": "Fields of Interest\n\n\nDigital Marketing\nSocial Media Marketing\nData Analysis\nBusiness Analysis\nProject Management\nCommunications"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#previous-roles.",
+    "href": "posts/welcome/Presentation.html#previous-roles.",
+    "title": "Communicating with Data.",
+    "section": "Previous Roles.",
+    "text": "Previous Roles.\n\n\nIntern Programmer at Battery Low Interactive\nDigital Marketing Intern at GlobexCam Group\nInternal Communications Intern at Fatima Al Fihri Open University\nCommunication Intern at Diaspo Media."
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#hobbies",
+    "href": "posts/welcome/Presentation.html#hobbies",
+    "title": "Communicating with Data.",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\nReading Self Help Books\nCooking traditional Cameroonian Meals.\nDancing\nSpending time with Family\nWatching Movies"
+  },
+  {
+    "objectID": "posts/welcome/Presentation.html#thanks",
+    "href": "posts/welcome/Presentation.html#thanks",
+    "title": "Communicating with Data.",
+    "section": "Thanks !",
+    "text": "Thanks !\n\nMy Email : barkattani@gmail.com\nMy LinkedInProfile: https://www.linkedin.com/in/tani-barkat-shalanyuy/"
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tani Barkat Portfolio",
-    "section": "",
-    "text": "Interactive Tables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nTani Barkat\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/welcome/index.html#interactive-graphs.",
+    "href": "posts/welcome/index.html#interactive-graphs.",
+    "title": "Welcome To My Blog",
+    "section": "Interactive Graphs.",
+    "text": "Interactive Graphs.\n\n\n\n\n\n\n\nI. Interactive Graph using Plotly"
+  },
+  {
+    "objectID": "index.html#academic-background",
+    "href": "index.html#academic-background",
+    "title": "Presentation",
+    "section": "Academic Background",
+    "text": "Academic Background\n\n\nMBA candidate at Willamette University\nBachelor’s Degree in Computer Science and Engineering"
+  },
+  {
+    "objectID": "index.html#soft-skills",
+    "href": "index.html#soft-skills",
+    "title": "Presentation",
+    "section": "Soft Skills",
+    "text": "Soft Skills\n\n\nCommunication\nProblem-Solving -Decision Making\nTime Management\nLeadership Skills"
+  },
+  {
+    "objectID": "index.html#hard-skills",
+    "href": "index.html#hard-skills",
+    "title": "Presentation",
+    "section": "Hard Skills",
+    "text": "Hard Skills\n\n\nWeb: HTML, CSS, Javascript\nLinear Regression\nGoogle Drive/Social Media/Graphics\nForecasting\nDatabase Management"
+  },
+  {
+    "objectID": "index.html#fields-of-interest",
+    "href": "index.html#fields-of-interest",
+    "title": "Presentation",
+    "section": "Fields of Interest",
+    "text": "Fields of Interest\n\n\nDigital Marketing\nSocial Media Marketing\nData Analysis\nBusiness Analysis\nProject Management\nCommunications"
+  },
+  {
+    "objectID": "index.html#previous-roles.",
+    "href": "index.html#previous-roles.",
+    "title": "Presentation",
+    "section": "Previous Roles.",
+    "text": "Previous Roles.\n\n\nIntern Programmer at Battery Low Interactive\nDigital Marketing Intern at GlobexCam Group\nInternal Communications Intern at Fatima Al Fihri Open University\nCommunication Intern at Diaspo Media."
+  },
+  {
+    "objectID": "index.html#hobbies",
+    "href": "index.html#hobbies",
+    "title": "Presentation",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\nReading Self Help Books\nCooking traditional Cameroonian Meals.\nDancing\nSpending time with Family\nWatching Movies"
+  },
+  {
+    "objectID": "index.html#thanks",
+    "href": "index.html#thanks",
+    "title": "Presentation",
+    "section": "Thanks !",
+    "text": "Thanks !\n\nMy Email : barkattani@gmail.com\nMy LinkedInProfile: https://www.linkedin.com/in/tani-barkat-shalanyuy/"
   },
   {
     "objectID": "about.html",

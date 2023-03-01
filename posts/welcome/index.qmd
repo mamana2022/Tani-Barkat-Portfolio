@@ -10,3 +10,47 @@ This is the first post in a Quarto blog. Welcome!
 ![](thumbnail.jpg)
 
 ## Interactive Graphs.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(lubridate)
+library(hrbrthemes)
+library(treemap)
+library(tidymodels)
+library(flextable)
+library(plotly)
+library(ggplot2)
+
+```
+
+```{r,echo=FALSE, message=FALSE, warning=FALSE}
+ tshelters <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-12-01/shelters.csv')
+
+```
+
+### I. Interactive Graph using Plotly
+
+```{r,echo=FALSE, message=FALSE, warning=FALSE}
+(g <- ggplot(tshelters) + aes(x=occupancy ,  y=capacity, color= "occupancy", text=paste0(occupancy, ":", capacity, ":")) + geom_point(alpha=0.2) + guides(size="none") + 
+               labs(title = "Occupancy vs Capacity in Shelter Houses in Toronto", x= "Capacity of Shelter Homes",
+                  y= "Occupancy of Shelter Homes", caption = "Data From #tidytuesday"))
+```
+
+```{r, ,echo=FALSE, message=FALSE, warning=FALSE}
+library(plotly)
+
+ggplotly(g, tooltip=c("text, color"))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggiraph)
+p <- ggplot(
+  data = tshelters,
+  mapping = aes(x = shelter_city, fill = sector, data_id = sector)) + 
+  geom_bar_interactive(
+    aes(tooltip=sprintf("%s: %0.f", fill, after_stat(count))),
+          size = 0.5                                                                                         )
+girafe(ggobj = p)
+#capacity of a shelter, and the sector of people in the shelter house.
+
+```
